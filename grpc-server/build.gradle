@@ -1,3 +1,7 @@
+dependencies {
+    implementation 'net.devh:grpc-server-spring-boot-starter:3.1.0.RELEASE'
+}
+
 protobuf {
     protoc {
         artifact = "com.google.protobuf:protoc:3.25.1"
